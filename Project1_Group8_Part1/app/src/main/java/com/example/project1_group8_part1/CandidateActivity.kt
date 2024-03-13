@@ -8,8 +8,8 @@ import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.project1_group8_part1.models.Candidate
-import com.example.project1_group8_part1.models.CandidateAdapter
+import com.example.project1_group8_part1.Candidate
+import com.example.project1_group8_part1.CandidateAdapter
 import com.firebase.ui.database.FirebaseRecyclerOptions
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.FirebaseDatabase
