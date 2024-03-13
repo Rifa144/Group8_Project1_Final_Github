@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.project1_group8_part1"
-        minSdk = 29
+        minSdk = 25
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -48,6 +48,10 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 //    for the Realtime Database library
     implementation("com.google.firebase:firebase-database")
+    implementation ("com.firebaseui:firebase-ui-database:8.0.0")
+    implementation("com.github.bumptech.glide:glide:4.11.0")
 //    BoM for the Firebase platform
     implementation(("com.google.firebase:firebase-bom:32.7.2"))
+// firebase authentication
+    implementation ("com.google.firebase:firebase-auth-ktx:21.1.0")
 }
